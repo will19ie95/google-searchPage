@@ -3,55 +3,117 @@
 	font-size: 13px;
 }
 
-#main {
-	margin-top: 125px;
-	text-align: center;
-	margin-bottom: 33px;
+ul {
+	list-style-type: none;
+	padding-left: 0px;
 }
 
-#google_logo img {
-	width: 19%;
+#main {
+	/*margin-top: 125px;
+	text-align: center;
+	margin-bottom: 33px;*/
+}
+
+body {
+	margin: 0px 0px;
+}
+
+#google_logo {
+	height: 40px;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 6px;
 }
 
 /* Nav Bar */
-.navbar {
-	text-align: right;
-	font-size: 13px;
-	height: 50px;
-	font-family: Arial, sans-serif;
+.navbar-container {
+	background: #FAFAFA;
+	margin-top: -15px;
+	border-bottom: 1px solid #ebebeb;
 }
 
-.navbar li {
+.navbar-top {
+	text-align: right;
+	font-size: 1px;
+	height: 50px;
+	font-family: Arial, sans-serif;
+	padding-top: 35px;
+	/*padding-bottom: 20px;*/
+}
+
+.navbar-left {
+	float: left;
 	display: inline-block;
-	width: 50px;
+}
+
+.navbar-right {
+	display: inline-block;
+	float: right;
+	padding-right: 30px;
+}
+
+.navbar-right li {
+	display: inline-block;
+	width: 35px;
 	padding: 3px;
 	text-align: center;
 	vertical-align: middle;
 }
 
-.navbar li a {
-	color: #000;
-	text-decoration: none;
-}
-
-.navbar li a:hover{
-	text-decoration: underline;
-}
-
-.navbar li a img {
-	height: 30px;
-	width: 30px;
+.navbar-right li a img {
+	height: 25px;
+	width: 25px;
 	border-radius: 50%;
 	opacity: .55;
 }
 
-.navbar li a img:hover{
+.navbar-right li a img:hover{
 	opacity: .85;
 }
 
 #nav-user-icon {
 	opacity: 1 !important;
+	height: 30px;
+	width: 30px;
 }
+
+.navbar-bottom	{
+	height: 48px;
+	line-height: 0px;
+	padding-left: 160px;
+	margin-top: -4px;
+}
+
+.navbar-bottom li {
+	display: inline-block;
+	padding: 29px 16px 20px;
+	text-align: center;
+}
+
+.navbar-bottom li a {
+	text-decoration: none;
+	color: #222;
+	opacity: .55;
+}
+
+.navbar-options li:first-child {
+	border-bottom: 3px solid #4285f4;
+	font-weight: bold;
+	color: #4285f4;
+	padding-bottom: 16px;
+}
+
+.navbar-options li:first-child a{
+	font-weight: bold;
+	color: #4285f4;
+	opacity: 1 !important;
+}
+
+.navbar-options li:nth-child(7) {
+	padding-left: 87px;
+}
+
 
 /* Search Bar & Search Buttons */
 
@@ -65,32 +127,12 @@ input[name=searchField] {
 	background: transparent;
 }
 
-input[type=submit]{
-	height: 36px;
-	border-radius: 2px;
-	border-style: none;
-	border: 1px solid #F2F2F2;
-	background-color: #F2F2F2;
-	color: #757575;
-	cursor: default;
-	font-weight: bold;
-	margin:	11px 4px;
-	min-width: 54px;
-	padding: 0px 16px;
-	text-align: center;
-}
-
-input[type=submit]:hover {
-	background-color: #f8f8f8;
-	border: 1px solid #c6c6c6;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
-	color: #222;
-	background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1ff);
-}
-
 #SearchBar-container {
+	float: left;
+	height: 44px;
 	border-radius: 3px;
 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .2), 0px 0px 0px 1px rgba(0, 0, 0, .1);
+	background-color: white;
 }
 
 #SearchBar-container:hover {
@@ -107,7 +149,7 @@ input[type=submit]:hover {
 	padding-top: 6px;
 	padding-left: 16px;
 	padding-right: 9px;
-	width: 500px;
+	width: 510px;
 }
 
 #Search-voice {
@@ -120,6 +162,12 @@ input[type=submit]:hover {
 	padding: 0px 8px;
 }
 
+#A-magnifying-glass {
+	width: 24px;
+	line-height: 44px;
+	padding: 0px 8px;
+}
+
 #Span-voice {
 	width: 18px;
 	background: url(images/google-voice-icon.png) no-repeat -3px 0;
@@ -127,6 +175,14 @@ input[type=submit]:hover {
 	display: inline-block;
 	background-size: 24px 24px;
 	vertical-align: middle;
+}
+
+#Span-mag-glass {
+	height: 20px;
+	display: inline-block;
+	background-size: 24px 24px;
+	vertical-align: middle;
+	margin-right: 5px;
 }
 
 #Search-buttons {

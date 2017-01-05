@@ -3,49 +3,55 @@
 <head>
 	<link href="images/tab-icon.png" rel="icon">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<title>Google Search</title>
+	<title>Fake Google Search</title>
 </head>
 <body>
-	<div class="navbar">
-		<ul>
-			<li><a href="#">Gmail</a></li>
-			<li><a href="#">Images</a></li>
-			<li><a href="#"><img src="images/google-apps-icon.png" alt="Google Apps"></a></li>
-			<li><a href="#"><img src="images/google-bell-icon.png" alt="Google Alert"></a></li>
-			<li><a href="#"><img id="nav-user-icon" src="images/google-user-icon.jpg" alt="Google User"></a></li>
-		</ul>
-	</div>
-
-	<div id="main">
-		<div id="google_logo" >
-			<a href="#">
-				<img src="images/google-logo.png" alt="Google Logo">
-			</a>
-		</div>
-	</div>
-
-	<center>
-		<div class="search" id="SearchBar-container">
-			<div class="search" id="SearchBar">
-				<form>
-					<input id="SearchField" type="text" name="searchField">
-				</form>
+	<div class="navbar-container">
+		<div class="navbar-top">
+			<div class="navbar-left">
+				<a href="#"><img id="google_logo" src="images/google-logo.png" alt="Google Logo"></a>
+				<div class="search" id="SearchBar-container">
+					<div class="search" id="SearchBar">
+						<form>
+							<input id="SearchField" type="text" name="searchField">
+						</form>
+					</div>
+					<div class="search" id="Search-voice">
+						<a class="search" id="A-voice" href="#">
+							<span id="Span-voice"></span>
+						</a>
+						<a classs="search" id="A-magnifying-glass" href="#">
+							<!-- <span id="Span-mag-glass"></span> -->
+							<img src="images/Magnifying_glass_icon.png" alt="magnifying glass" id="Span-mag-glass">
+						</a>
+					</div>
+				</div>
 			</div>
-			<div class="search" id="Search-voice">
-				<a class="search" id="A-voice" href="#">
-					<span id="Span-voice"></span>
-				</a>
+			<div class="navbar-right">
+				<ul>
+					<li><a href="#"><img src="images/google-apps-icon.png" alt="Google Apps"></a></li>
+					<li><a href="#"><img src="images/google-bell-icon.png" alt="Google Alert"></a></li>
+					<li><a href="#"><img id="nav-user-icon" src="images/google-user-icon.jpg" alt="Google User"></a></li>
+				</ul>
 			</div>
 		</div>
 
-		<div id="Search-buttons">
-				<form>
-					<input type="submit" name="search-btn" value="Google Search">
-					<input type="submit" name="lucky-btn" value="I'm Feelin Lucky">
-				</form>
-		</div>
-	</center>
-		
+		<div class="navbar-bottom">
+				<div class="navbar-options">
+					<ul>
+						<li><a href="#">All</a></li>
+						<li><a href="#">Images</a></li>
+						<li><a href="#">Shopping</a></li>
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">More</a></li>
+						<li><a href="#">Settings</a></li>
+						<li><a href="#">Tools</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+
 	<div id="Footer">
 		<span id="footer-left" >
 			<a href="#">Advertising</a>
