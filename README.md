@@ -1,1 +1,3 @@
 # google-searchPage
+
+Imitating the google search page with HTML and CSS...
