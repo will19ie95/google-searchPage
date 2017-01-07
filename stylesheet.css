@@ -226,12 +226,9 @@ input[name=searchField] {
 	border-radius: 2px;
 }
 
-.searchResult-Right {
-	width: 455px;
-}
-
 .searchResult-RightBox {
 	border: 1px solid rgba(46,46,46,.2);
+	width: 455px;
 }
 
 .searchResult-LeftBox_left {
@@ -261,6 +258,19 @@ input[name=searchField] {
 	padding-left: 32px;
 	padding-right: 16px;
 	padding-bottom: 16px;
+}
+
+.small_img_row {
+	left: 3px;
+}
+
+.small_img {
+	margin: 0px;
+}
+
+.small_img img{
+	height: 69px;
+	width: 32%;
 }
 
 /* Footer */
