@@ -273,6 +273,36 @@ input[name=searchField] {
 	width: 32%;
 }
 
+.rightBox_text {
+	color: #000;
+	font-size: 30px;
+	padding-left: 15px;
+	padding-top: 12px;	
+}
+
+.row_reset {
+	margin: 0px;
+}
+
+.share_icon {
+	height: 35px;
+	float: right;
+	padding-right: 10px;
+}
+
+.searchResult-RightBox-top {
+	border-bottom: 1px solid rgba(46,46,46,.2);
+}
+
+.searchResult-RightBox-bottom {
+	padding-left: 15px;
+	padding-top: 12px;
+	padding-right: 15px;
+}
+
+.wiki{
+	color: rgb(26,13,171);
+}
 /* Footer */
 
 #Footer {
