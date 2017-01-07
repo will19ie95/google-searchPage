@@ -2,13 +2,15 @@
 <html>
 <head>
 	<link href="images/tab-icon.png" rel="icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<title>Fake Google Search</title>
 </head>
 <body>
+	<!-- NAV BAR -->
 	<div class="navbar-container">
-		<div class="navbar-top">
-			<div class="navbar-left">
+		<div class="navbar-Top">
+			<div class="navbar-Left">
 				<a href="#"><img id="google_logo" src="images/google-logo.png" alt="Google Logo"></a>
 				<div class="search" id="SearchBar-container">
 					<div class="search" id="SearchBar">
@@ -21,13 +23,12 @@
 							<span id="Span-voice"></span>
 						</a>
 						<a classs="search" id="A-magnifying-glass" href="#">
-							<!-- <span id="Span-mag-glass"></span> -->
 							<img src="images/Magnifying_glass_icon.png" alt="magnifying glass" id="Span-mag-glass">
 						</a>
 					</div>
 				</div>
 			</div>
-			<div class="navbar-right">
+			<div class="navbar-Right">
 				<ul>
 					<li><a href="#"><img src="images/google-apps-icon.png" alt="Google Apps"></a></li>
 					<li><a href="#"><img src="images/google-bell-icon.png" alt="Google Alert"></a></li>
@@ -36,33 +37,76 @@
 			</div>
 		</div>
 
-		<div class="navbar-bottom">
-				<div class="navbar-options">
-					<ul>
-						<li><a href="#">All</a></li>
-						<li><a href="#">Images</a></li>
-						<li><a href="#">Shopping</a></li>
-						<li><a href="#">Videos</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">More</a></li>
-						<li><a href="#">Settings</a></li>
-						<li><a href="#">Tools</a></li>
-					</ul>
+		<br>
+		<br>
+
+		<div class="navbar-Bottom">
+			<div class="navbar-Options">
+				<ul>
+					<li><a href="#">All</a></li>
+					<li><a href="#">Images</a></li>
+					<li><a href="#">Shopping</a></li>
+					<li><a href="#">Videos</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">More</a></li>
+					<li><a href="#">Settings</a></li>
+					<li><a href="#">Tools</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- CONTENT -->
+	<div class="content-container">
+		<div>
+			<span id="resultStats">About 82,100,000 results (0.51 seconds)</snpan>
+			</div>
+			<div class="row">
+
+
+				<div class="col-md-6 searchResult-Left-col">
+					<div class="row searchResult-LeftBox">
+
+						<div class="row">
+							<div class="col-md-8 searchResult-LeftBox_left">
+								<p class="searchResult-LeftBox_left_desc">
+									Tundras are among Earth's coldest, harshest biomes. <b>Tundra</b> ecosystems are treeless regions found in the Arctic and on the tops of mountains, where the <b>climate</b> is cold and windy and rainfall is scant. <b>Tundra</b> lands are snow-covered for much of the year, until summer brings a burst of wildflowers.
+								</p>
+							</div>
+							<div class="col-md-4 searchResult-LeftBox_right">
+								<img src="images/searchResults_1.jpeg">
+							</div>
+						</div>
+						<div class="row searchResults_LeftBox_bottom">
+							<a href="#">Tundra -- National Geographic</a>
+							<p class="a_link">environment.nationalgeographic.com/environment/habitats/tundra-profile/</p>
+						</div>
+
+					</div>
+					<div class="row">
+							appple
+					</div>
+				</div>
+
+				<div class="col-md-6 searchResult-Right">
+					<div class="row searchResult-RightBox">
+						apple
+					</div>
 				</div>
 			</div>
-	</div>
 
-	<div id="Footer">
-		<span id="footer-left" >
-			<a href="#">Advertising</a>
-			<a href="#">Business</a>
-			<a href="#">About</a>
-		</span>
-		<span id="footer-right">
-			<a href="#">Privacy</a>
-			<a href="#">Terms</a>
-			<a href="#">Settings</a>
-		</span>
-	</div>
-</body>
-</html>
+		</div>
+		<!-- FOOTER -->
+		<div id="Footer">
+			<span id="footer-left" >
+				<a href="#">Advertising</a>
+				<a href="#">Business</a>
+				<a href="#">About</a>
+			</span>
+			<span id="footer-right">
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+				<a href="#">Settings</a>
+			</span>
+		</div>
+	</body>
+	</html>
