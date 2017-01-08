@@ -212,7 +212,7 @@ input[name=searchField] {
 	font-size: 18px;
 }
 
-.searchResult-Left-col .a_link {
+.searchResult-Left-col .searchResults_link {
 	color:	#006621;
 	font-style: none;
 	font-size: 14px;
@@ -260,6 +260,11 @@ input[name=searchField] {
 	padding-bottom: 16px;
 }
 
+.searchResults {
+	padding: 0px 16px;
+	margin-bottom: 26px;
+}
+
 .small_img_row {
 	left: 3px;
 }
@@ -300,6 +305,45 @@ input[name=searchField] {
 	padding-right: 15px;
 }
 
+.searchResults:first-child{
+	margin-top: 30px;
+}
+
+.searchResults_left {
+	opacity: .9;
+	display: inline-block;
+}
+
+.releated_Search_head {
+	padding-bottom: 8px;
+	color: #222;
+	font-size: 18px;
+	text-align: left;
+	margin-top: 10px;
+
+}
+
+.searchResults li{
+	color: #1a0dab;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.searchResults ul{
+	margin: 0px;
+	display: inline-block;
+}
+
+.releated_Search_left {
+	display: inline-block;
+}
+
+.releated_Search_right {
+	display: inline-block;
+	/*width: 195px;*/
+}
+
+
 .wiki{
 	color: rgb(26,13,171);
 }
@@ -314,7 +358,7 @@ input[name=searchField] {
 	width: 102%;
 	border-top: 1px solid #e4e4e4;
 	margin-left: -27px;
-	bottom: 0px;
+	/*bottom: 0px;*/
 }
 
 #footer-left {
