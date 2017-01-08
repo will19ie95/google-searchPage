@@ -347,6 +347,70 @@ input[name=searchField] {
 .wiki{
 	color: rgb(26,13,171);
 }
+
+.long_logo {
+	display: block; 
+}
+
+table {
+	display: table;
+	border-spacing: 2px;
+	border-color: grey;
+	border-collapse: collapse;
+	text-align: left;
+	margin: 30px auto 30px;
+}
+
+tbody {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.long_logo td {
+	color: #4285f4;
+}
+
+.nav_start {
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -24px 0;
+	background-size: 167px;
+	width: 28px;
+	display: block;
+	height: 40px;
+	margin-bottom: 15px;
+
+}
+
+.nav_end {
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -96px 0;
+	background-size: 167px;
+	width: 71px;
+	height: 40px;
+	display: block;
+	text-align: right;
+}
+
+.nav_o {
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -74px 0;
+	background-size: 167px;
+	width: 20px;
+	height: 40px;
+	display: block;
+}
+
+.nav_o_1 {
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-position: -53px 0;
+	background-size: 167px;
+	width: 20px;
+	height: 40px;
+	display: block;
+}
+
+
 /* Footer */
 
 #Footer {
