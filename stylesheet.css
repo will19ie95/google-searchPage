@@ -218,6 +218,10 @@ input[name=searchField] {
 	font-size: 14px;
 }
 
+.searchResults_heading {
+	cursor: pointer;
+}
+
 .searchResult-LeftBox {
 	left: 150px;
 	width: 632px;
@@ -369,6 +373,7 @@ tbody {
 
 .long_logo td {
 	color: #4285f4;
+	text-align: center;
 }
 
 .nav_start {
@@ -389,7 +394,6 @@ tbody {
 	width: 71px;
 	height: 40px;
 	display: block;
-	text-align: right;
 }
 
 .nav_o {
