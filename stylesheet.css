@@ -234,6 +234,8 @@ input[name=searchField] {
 .searchResult-RightBox {
 	border: 1px solid rgba(46,46,46,.2);
 	width: 455px;
+	position: absolute;
+	left: 820px;
 }
 
 .searchResult-LeftBox_left {
