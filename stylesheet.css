@@ -336,6 +336,11 @@ input[name=searchField] {
 	margin-bottom: 5px;
 }
 
+.searchResults li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 .searchResults ul{
 	margin: 0px;
 	display: inline-block;
@@ -377,6 +382,11 @@ tbody {
 .long_logo td {
 	color: #4285f4;
 	text-align: center;
+}
+
+.long_logo td:hover {
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 .nav_start {
